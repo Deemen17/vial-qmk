@@ -10,6 +10,9 @@
         "pid": "0x60F0",
         "device_version": "2.0.1"
     },
+    "build": {
+        "lto" : true
+    },
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -33,16 +36,15 @@
         "led_count": 22,
         "sleep": true,
         "animations": {
-            "alternating": true,
+            "alternating": false,
             "breathing": true,
-            "christmas": true,
-            "knight": true,
+            "christmas": false,
+            "knight": false,
             "rainbow_mood": true,
             "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
+            "snake": false,
+            "static_gradient": false,
+            "twinkle": false
         },
         "default": {
             "animation": "rainbow_swirl"

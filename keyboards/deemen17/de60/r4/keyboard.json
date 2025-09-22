@@ -27,23 +27,23 @@
         "on_state": 0
     },
     "ws2812": {
-        "pin": "B5",
+        "pin": "B15",
         "driver": "spi"
     },
     "rgblight": {
         "led_count": 24,
-        "max_brightness": 240,
+        "max_brightness": 255,
         "sleep": true,
         "animations": {
-            "alternating": true,
+            "alternating": false,
             "breathing": true,
-            "christmas": true,
-            "knight": true,
+            "christmas": false,
+            "knight": false,
             "rainbow_mood": true,
             "rainbow_swirl": true,
-            "snake": true,
+            "snake": false,
             "static_gradient": true,
-            "twinkle": true
+            "twinkle": false
         }
     },
     "layout_aliases": {
