@@ -1,0 +1,61 @@
+{
+  "keyboard_name": "Veritas 16u2",
+  "manufacturer": "Deemen17 Works",
+  "maintainer": "Deemen17",
+  "usb": {
+    "vid": "0xDE17",
+    "pid": "0x7104",
+    "device_version": "0.0.1"
+  },
+  "build": {
+    "lto": true
+  },
+  "features": {
+    "bootmagic": false,
+    "extrakey": false,
+    "mousekey": false,
+    "nkro": false,
+    "encoder": true
+  },
+  "encoder": {
+    "rotary": [
+      {"pin_a": "D4", "pin_b": "D6"}
+    ]
+  },
+  "matrix_pins": {
+    "direct": [
+      ["NO_PIN"]
+    ]
+  },
+  "indicators": {
+    "caps_lock": "C4",
+    "num_lock": "D1",
+    "scroll_lock": "C2"
+  },
+  "split": {
+    "enabled": true,
+    "serial": {
+      "pin": "D2"
+    },
+    "transport": {
+      "protocol": "serial",
+      "sync": {
+        "indicators": true,
+        "layer_state": true
+      }
+    },
+    "usb_detect": {
+      "enabled": true
+    }
+  },
+  "diode_direction": "COL2ROW",
+  "processor": "atmega16u2",
+  "bootloader": "atmel-dfu",
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {"matrix": [0, 0], "x": 0, "y": 0}
+      ]
+    }
+  }
+}
