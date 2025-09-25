@@ -28,14 +28,14 @@
     },
     "rgblight": {
         "animations": {
-            "alternating": true,
+            "alternating": false,
             "breathing": true,
-            "christmas": true,
-            "knight": true,
+            "christmas": false,
+            "knight": false,
             "rainbow_mood": true,
             "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
+            "rgb_test": false,
+            "snake": false,
             "static_gradient": true,
             "twinkle": true
         },
