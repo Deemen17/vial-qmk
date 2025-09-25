@@ -14,7 +14,7 @@
     "bootmagic": true,
     "extrakey": true,
     "mousekey": false,
-    "nkro": true,
+    "nkro": false,
 		"encoder": true
   },
   "matrix_pins": {

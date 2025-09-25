@@ -8,7 +8,7 @@
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 
 // Reduce macro storage to save EEPROM
-#define DYNAMIC_KEYMAP_MACRO_COUNT 0
+// #define DYNAMIC_KEYMAP_MACRO_COUNT 0
 
 // Giảm macro EEPROM space
-#define DYNAMIC_KEYMAP_MACRO_EEPROM_SIZE 0
+// #define DYNAMIC_KEYMAP_MACRO_EEPROM_SIZE 0
