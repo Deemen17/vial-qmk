@@ -1,0 +1,4 @@
+QUANTUM_PAINTER_ENABLE = yes
+QUANTUM_PAINTER_DRIVERS += st7789_spi
+ST7789 = true
+SRC += font/hitmo2.qff.c
